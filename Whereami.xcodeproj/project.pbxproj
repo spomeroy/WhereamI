@@ -13,6 +13,7 @@
 		DC880874151271E800A7DDBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC880872151271E800A7DDBE /* InfoPlist.strings */; };
 		DC880876151271E800A7DDBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC880875151271E800A7DDBE /* main.m */; };
 		DC88087A151271E800A7DDBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC880879151271E800A7DDBE /* AppDelegate.m */; };
+		DC8808811512741C00A7DDBE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8808801512741C00A7DDBE /* MainWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,13 @@
 		DC880869151271E800A7DDBE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DC88086B151271E800A7DDBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DC88086D151271E800A7DDBE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DC880871151271E800A7DDBE /* Whereami-Info.plist */ = {isa = PBXFileReference; path = "Whereami-Info.plist"; sourceTree = "<group>"; };
+		DC880871151271E800A7DDBE /* Whereami-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Whereami-Info.plist"; sourceTree = "<group>"; };
 		DC880873151271E800A7DDBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DC880875151271E800A7DDBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DC880877151271E800A7DDBE /* Whereami-Prefix.pch */ = {isa = PBXFileReference; path = "Whereami-Prefix.pch"; sourceTree = "<group>"; };
-		DC880878151271E800A7DDBE /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC880877151271E800A7DDBE /* Whereami-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Whereami-Prefix.pch"; sourceTree = "<group>"; };
+		DC880878151271E800A7DDBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DC880879151271E800A7DDBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC8808801512741C00A7DDBE /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			children = (
 				DC880878151271E800A7DDBE /* AppDelegate.h */,
 				DC880879151271E800A7DDBE /* AppDelegate.m */,
+				DC8808801512741C00A7DDBE /* MainWindow.xib */,
 				DC880870151271E800A7DDBE /* Supporting Files */,
 			);
 			path = Whereami;
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC880874151271E800A7DDBE /* InfoPlist.strings in Resources */,
+				DC8808811512741C00A7DDBE /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
